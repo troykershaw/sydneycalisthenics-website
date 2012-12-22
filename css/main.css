@@ -13,7 +13,7 @@ body {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  font-size: 80px;
+  font-size: 50px;
   text-decoration: none;
   opacity: 0.97;
 }
@@ -22,15 +22,21 @@ body {
   color:#1B1B1B;
 }
 
-hr.heading {
+.content-heading {
+  font-size: 50px;
+  font-weight: normal;
+}
+
+h1.content-heading {
+  margin-top: 50px;
+}
+
+hr.content-heading {
   height:3px;
   background-color: #5A5A5A;
   color: #5A5A5A;
 }
-h1.heading {
-  font-size: 50px;
-  font-weight: normal;
-}
+
 
 p {
   font-size: 21px;
@@ -141,7 +147,7 @@ i {
 ------------------------- */
 
 .featurette-divider {
-  margin: 15px 0; /* Space out the Bootstrap <hr> more */
+  margin: 35px 0; /* Space out the Bootstrap <hr> more */
 }
 .featurette {
   padding-top: 80px; /* Vertically center images part 1: add padding above and below text. */
@@ -167,6 +173,9 @@ i {
   letter-spacing: -1px;
 }
 
+footer {
+  margin-top: 60px;
+}
 
 
 /* RESPONSIVE CSS
