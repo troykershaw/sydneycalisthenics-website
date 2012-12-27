@@ -2,6 +2,14 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+
+.affix {
+  position: fixed;
+  top: 0px; 
+  width: 100%;
+}
+
+
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
@@ -31,6 +39,10 @@ h1.content-heading {
   margin-top: 50px;
 }
 
+h2 {
+  font-size: 26px;
+}
+
 hr.content-heading {
   height:3px;
   background-color: #5A5A5A;
@@ -50,6 +62,14 @@ i {
 
 .navbar {
   opacity: 0.97;
+}
+
+.muted {
+  color:#FF69B4;
+}
+
+#nav-wrapper {
+  margin-bottom: 30px;
 }
 
 /* CUSTOMIZE THE NAVBAR
