@@ -2,7 +2,17 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+.coach {
+  padding: 0 15px;
+}
 
+.coach > ul > li {
+  padding-right: 20px;
+}
+
+.navbar .brand {
+  display: none;
+}
 .affix {
   position: fixed;
   top: 0px; 
@@ -204,7 +214,14 @@ footer {
 @media (max-width: 979px) {
 
   #banner {
-    font-size: 70px;
+    display: none;
+  }
+  .youtube {
+    width: 300px;
+    height: 225px;
+  }
+  .navbar .brand {
+    display: block;
   }
   .navbar .container {
     width:100%;
@@ -231,6 +248,11 @@ footer {
 
   #banner {
     font-size: 30px;
+  }
+
+  .youtube {
+    width: 235px;
+    height: 176px;
   }
 
   .marketing .span4 + .span4 {
