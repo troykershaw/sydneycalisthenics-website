@@ -2,12 +2,20 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+.navbar .pull-right > li > .dropdown-menu, .navbar .nav > li > .dropdown-menu.pull-right {
+  right:95px;
+}
 .coach {
   padding: 0 15px;
 }
 
 .coach > ul > li {
   padding-right: 20px;
+}
+
+li {
+  line-height: 25px;
+  font-size: 16px;
 }
 
 .navbar .brand {
@@ -108,10 +116,6 @@ i {
 }
 
 
-form li.focused {
-  background-color: lightPink;
-}
-
 .navbar .container {
   width:1120px;
 }
@@ -142,18 +146,10 @@ h2.featurette-heading {
   font-size:60px;
 }
 
-li {
-  line-height: 25px;
-  font-size: 16px;
-}
-
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
 
 
-/* Navbar links: increase padding for taller navbar */
 .navbar .nav > li > a {
-  padding: 15px 20px;
+  padding: 15px;
 }
 
 
@@ -213,6 +209,10 @@ footer {
 
 @media (max-width: 979px) {
 
+  .affix {
+    position:relative;
+  }
+
   #banner {
     display: none;
   }
@@ -246,6 +246,10 @@ footer {
 
 @media (max-width: 767px) {
 
+  .navbar {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
   #banner {
     font-size: 30px;
   }
