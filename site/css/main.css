@@ -1,0 +1,272 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+
+.navbar .pull-right > li > .dropdown-menu, 
+.navbar .nav > li > .dropdown-menu.pull-right {
+  right:95px;
+}
+.coach {
+  padding: 0 15px;
+}
+
+.coach > ul > li {
+  padding-right: 20px;
+}
+
+li {
+  line-height: 25px;
+  font-size: 16px;
+}
+
+.navbar .brand {
+  display: none;
+}
+.affix {
+  position: fixed;
+  top: 0px; 
+  width: 100%;
+}
+
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-image: url('../img/banner.jpg');
+
+}
+
+#banner {
+  font-family: 'oleo script', cursive;
+  font-size: 100px;
+  text-align: center;
+  padding: 30px 0;
+  line-height: 1;
+}
+
+#back-to-top {
+  color:#999;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 50px;
+  text-decoration: none;
+  opacity: 0.97;
+}
+
+#back-to-top:hover {
+  color:#1B1B1B;
+}
+
+.content-heading {
+  font-size: 50px;
+  font-weight: normal;
+}
+
+h1.content-heading {
+  margin-top: 75px;
+  font-family: 'oleo script', cursive;
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+hr.content-heading {
+  height:3px;
+  background-color: #5A5A5A;
+  color: #5A5A5A;
+}
+
+
+p {
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 30px;
+}
+
+i {
+  font-size: 30px;
+}
+
+.navbar {
+  opacity: 0.97;
+}
+
+.navbar-inner {
+  webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.muted {
+  color:#FF69B4;
+}
+
+#nav-wrapper {
+  margin-bottom: 30px;
+}
+
+
+[class*="span"] {
+  margin-left: 0;
+}
+
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover{
+  background-color: #444;
+}
+
+.navbar .nav {
+  margin-bottom:-4px;
+}
+
+.navbar .nav > li > a {
+  font-size: 20px;
+}
+
+.wufoo .info {
+  display: none;
+}
+
+.featurette {
+  margin-bottom: 60px;
+}
+
+h2.featurette-heading {
+  font-family: 'oleo script', Helvetica;
+  font-size:60px;
+}
+
+
+
+.navbar .nav > li > a {
+  padding: 15px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .span4 {
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .span4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 35px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+  padding-top: 80px; /* Vertically center images part 1: add padding above and below text. */
+  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+  margin-top: -80px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+  margin-right: 40px;
+}
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 979px) {
+
+  .affix,
+  .affix-top {
+    position:relative;
+    width:auto;
+  }
+
+  #banner {
+    display: none;
+  }
+  .youtube {
+    width: 300px;
+    height: 225px;
+  }
+  .navbar .brand {
+    display: block;
+  }
+  .navbar .container {
+    width:100%;
+  }
+  .navbar-fixed-top {
+    margin-bottom: 0;
+  }
+
+  .featurette {
+    height: auto;
+    padding: 0;
+  }
+  .featurette-image.pull-left,
+  .featurette-image.pull-right {
+    display: block;
+    float: none;
+    max-width: 40%;
+    margin: 0 auto 20px;
+  }
+}
+
+
+@media (max-width: 767px) {
+
+  .navbar {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  #banner {
+    font-size: 30px;
+  }
+
+  .youtube {
+    width: 235px;
+    height: 176px;
+  }
+
+  .marketing .span4 + .span4 {
+    margin-top: 40px;
+  }
+
+  .featurette-heading {
+    font-size: 30px;
+  }
+  .featurette .lead {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
