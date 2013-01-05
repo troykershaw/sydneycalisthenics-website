@@ -8,15 +8,10 @@
     <meta name="author" content="Meredith Tasker">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/css/bootstrap-responsive.min.css" rel="stylesheet">
-<<<<<<< HEAD:site/index.html
-=======
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
->>>>>>> Simple node server:site/index.html
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
-    
-    
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -31,7 +26,7 @@
     <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
   </head>
 
-<body id="home" data-spy="scroll" data-target=".navbar" data-offset="10">
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
 
   <div id="banner">Sydney Calisthenics Club</div>
     
@@ -47,13 +42,14 @@
           </a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#home">Home</a></li>
+              <li class="active"><a href="#">Home</a></li>
               <li><a href="#what">What is it?</a></li>
               <li><a href="#club">Our club</a></li>
               <li><a href="#coaches">Our coaches</a></li>
               <li><a href="#venue">Venue</a></li>
-              <li><a href="#class-times">Class times</a></li> 
-              <li><a href="#contact-us">Contact us</a></li>      
+              <li><a href="#class-times">Class times</a></li>
+              <li><a href="#fees">Fees</a></li>
+              <li><a href="#contact">Contact us</a></li>      
             </ul>
             
             <ul class="nav pull-right">
@@ -68,10 +64,10 @@
                   <b class="caret"></b>
                 </a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                  <li class="nav-header">Lisa:</li>
-                  <li><a href="tel:0402 924 160">0402 924 160</a></li>
                   <li class="nav-header">Kelly:</li>
                   <li><a href="tel:0468 939 019">0468 939 019</a></li>
+                  <li class="nav-header">Lisa:</li>
+                  <li><a href="tel:0402 924 160">0402 924 160</a></li>
                 </ul>                
               </li>
               <li>
@@ -103,7 +99,7 @@
     <div class="featurette">
       <iframe class="featurette-image pull-right img-polaroid youtube" width="640" height="480" src="http://www.youtube.com/embed/ZxFlYUGxJQw?rel=0&wmode=transparent" frameborder="0" allowfullscreen></iframe>
       <h2 class="featurette-heading">Want to know more? <span class="muted">Try a class for free.</span></h2>
-      <p class="lead">We're conveniently located in Rushcutters Bay, Sydney City. We welcome visitors and invite you to drop in on any of our classes to participate or watch. Alternatively, please contact us for more information.</p>
+      <p class="lead">We're conveniently located in Rushcutters Bay, Sydney City. We welcome visitors and invite you to drop in on any of our classes to participate or watch. Alternatively, please <a href="#contact">contact us</a> for more information.</p>
     </div>
 
 
@@ -132,9 +128,11 @@
     <div class="row">
       <p>
         We are a creative and exciting new club led by experienced and talented coaches. We are the only club in NSW offering classes in the Sydney CBD area. 
-        <br><br>       
+       </p>
+       <p>      
         We provide a safe, supportive and fun place to develop your dance and performance skills and meet new people. At Calisthenics, you'll experience the joy of working in a team and we will also cater for your unique abilities and celebrate your individual achievements.
-        <br><br>
+       </p>
+       <p>
         Whether you're new to the stage or a seasoned dancer or performer, we invite you to give Calisthenics a try.
       </p>
     </div>
@@ -150,7 +148,7 @@
     </div>
     <div class="row">
       <div class="span6 coach">
-        <h2>Kelly</h2>
+        <h2>Kelly, Principal Coach</h2>
         <p>Kelly loves coaching performers of all ages and is excited to grow Calisthenics in Sydney.</p>
         <ul>
           <li>Qualified Level 1 Aus Sport Calisthenics Coach</li>
@@ -160,25 +158,31 @@
           <li>Three time winner of the "Best Club Girl" award, Canadian Bay Calisthenics College</li>
           <li>Three time representative of Victoria at the National Calisthenic Championships</li>
         </ul>
-        <p>Kelly says: "I credit Calisthenics with helping me form long-lasting friendships with people across Australia."</p>
+        <blockquote>
+          <p>I credit Calisthenics with helping me form long-lasting friendships with people across Australia.</p>
+          <small>Kelly</small>
+        </blockquote>        
       </div><!-- /kelly -->
       <div class="span6 coach">
-        <h2>Kate</h2>
+        <h2>Kate, Class Assistant</h2>
         <p>Kate is a graceful soloist and team dancer who loves performing character roles.</p>
-          <ul>
-            <li>Over 15 years' performance experience, mostly with Kallara Calisthenics College in Victoria</li>
-            <li>2 years' coaching experience</li>
-            <li>Warm-up and stretch specialist</li>
-            <li>Winner of various team and solo titles</li>
-          </ul>
+        <ul>
+          <li>Over 15 years' performance experience, mostly with Kallara Calisthenics College in Victoria</li>
+          <li>2 years' coaching experience</li>
+          <li>Warm-up and stretch specialist</li>
+          <li>Winner of various team and solo titles</li>
+        </ul>
+        <blockquote>
           <p>
-            Kate says: "Calisthenics has increased my confidence as a public speaker and all-round performer. Because of the performance skills I learnt at Calisthenics, I was chosen to play many lead roles throughout school, including Cinderella and Snugglepot."
+            Calisthenics has increased my confidence as a public speaker and all-round performer. Because of the performance skills I learnt at Calisthenics, I was chosen to play many lead roles throughout school, including Cinderella and Snugglepot.
           </p>
+          <small>Kate</small>
+        </blockquote>          
       </div><!-- /kate -->      
     </div><!-- /first coach row -->
     <div class="row">
       <div class="span6 coach">
-        <h2>Lisa</h2>
+        <h2>Lisa, Principal Coach</h2>
         <p>Lisa loves creating artistic choreography and is looking forward to watching each pupil develop at Sydney Calisthenics Club.</p>
         <ul>
           <li>Qualified Level 1 Aus Sport Calisthenics Coach since 2002</li>
@@ -191,20 +195,23 @@
           <li>Consultant Choreographer for a number of clubs across Victoria</li>
           <li>Working with children police check card holder</li>
         </ul>
-        <p>
-        Lisa says: "I love Calisthenics and what it brings to each individual performer, not only on the stage but the person it shapes through team sport, commitment, friendship and an understanding of others. It's so much more than a dance class."</p>
+        <blockquote>
+          <p>I love Calisthenics and what it brings to each individual performer, not only on the stage but the person it shapes through team sport, commitment, friendship and an understanding of others. It's so much more than a dance class.</p>
+          <small>Lisa</small>
+        </blockquote>        
       </div><!-- /lisa -->
       <div class="span6 coach">
-        <h2>Mez</h2>
+        <h2>Mez, Class Assistant</h2>
         <p>Mez is a wannabe actress who loves the onstage drama and comedy of Calisthenics.</p>
         <ul>
           <li>16 years' performance experience, mostly with Morphett-Vale Chelsea Calisthenics Club in South Australia and Deanne Calisthenics Club in the ACT</li>
           <li>One year of coaching experience</li>
           <li>Winner of various team titles and "Best in Team" awards</li>
-        </ul>
-        <p>
-          Mez says: "As a mother, I highly recommend Calisthenics to any parent looking for a creative outlet for their child that will also foster friendship, team spirit, dedication and healthy development."
-        </p>
+        </ul>        
+        <blockquote>
+          <p>As a mother, I highly recommend Calisthenics to any parent looking for a creative outlet for their child that will also foster friendship, team spirit, dedication and healthy development.</p>
+          <small>Mez</small>
+        </blockquote>
       </div><!-- /mez -->
     </div><!-- /second coach row -->
 
@@ -248,7 +255,111 @@
       <p>Classes will start in the first week of February 2013.</p>
     </div>
 
-    <div id="contact-us" class="row">
+    <div id="fees" class="row">
+      <h1 class="content-heading">Fees</h1>
+      <hr class="content-heading"/>
+    </div>
+    <div class="row">
+      <table class="table table-bordered table-hover">
+        <caption>Tinies <span>(3 - 6 years)</span></caption>
+        <thead>
+          <tr>
+            <th>Fee</th><th>Term 1 (9 February)</th><th>Term 2 (1 May)</th><th>Term 3 (1 August)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tuition</td><td>$145</td><td>$145</td><td>$145</td>
+          </tr>
+          <tr>
+            <td>Annual Registration</td><td>$90</td><td>-</td><td>-</td>
+          </tr>
+          <tr>
+            <td>Apparatus hire (if needed)</td><td>-</td><td>$20</td><td>-</td>
+          </tr>
+          <tr>
+            <td>Costume hire</td><td>-</td><td>-</td><td>$50</td>
+          </tr>
+          <tr class="info">
+            <td>Total</td><td>$235</td><td>$165</td><td>$195</td>
+          </tr>
+          <tr class="warning">
+            <td colspan="3" style="text-align: right;">Total annual cost</td><td>$595</td>
+          </tr>
+          <tr class="success">
+            <td colspan="3" style="text-align: right;">Earlybird discount (5% if fees paid by 31 March)</td><td>$570</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>   
+    <div class="row">
+      <table class="table table-bordered table-hover">
+        <caption>Sub-Juniors and Juniors <span>(7 - 12 years)</span></caption>
+        <thead>
+          <tr>
+            <th>Fee</th><th>Term 1 (9 February)</th><th>Term 2 (1 May)</th><th>Term 3 (1 August)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tuition</td><td>$165</td><td>$165</td><td>$165</td>
+          </tr>
+          <tr>
+            <td>Annual Registration</td><td>$90</td><td>-</td><td>-</td>
+          </tr>
+          <tr>
+            <td>Apparatus hire (if needed)</td><td>-</td><td>$40</td><td>-</td>
+          </tr>
+          <tr>
+            <td>Costume hire</td><td>-</td><td>-</td><td>$70</td>
+          </tr>
+          <tr class="info">
+            <td>Total</td><td>$255</td><td>$205</td><td>$235</td>
+          </tr>
+          <tr class="warning">
+            <td colspan="3" style="text-align: right;">Total annual cost</td><td>$695</td>
+          </tr>
+          <tr class="success">
+            <td colspan="3" style="text-align: right;">Earlybird discount (5% if fees paid by 31 March)</td><td>$680</td>
+          </tr>
+        </tbody>
+      </table>
+    </div> 
+    <div class="row">
+      <table class="table table-bordered table-hover">
+        <caption>Intermediates and Seniors <span>(13+ years)</span></caption>
+        <thead>
+          <tr>
+            <th>Fee</th><th>Term 1 (9 February)</th><th>Term 2 (1 May)</th><th>Term 3 (1 August)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tuition</td><td>$185</td><td>$185</td><td>$185</td>
+          </tr>
+          <tr>
+            <td>Annual Registration</td><td>$90</td><td>-</td><td>-</td>
+          </tr>
+          <tr>
+            <td>Apparatus hire (if needed)</td><td>-</td><td>$50</td><td>-</td>
+          </tr>
+          <tr>
+            <td>Costume hire</td><td>-</td><td>-</td><td>$70</td>
+          </tr>
+          <tr class="info">
+            <td>Total</td><td>$270</td><td>$235</td><td>$255</td>
+          </tr>
+          <tr class="warning">
+            <td colspan="3" style="text-align: right;">Total annual cost</td><td>$760</td>
+          </tr>
+          <tr class="success">
+            <td colspan="3" style="text-align: right;">Earlybird discount (5% if fees paid by 31 March)</td><td>$720</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="contact" class="row">
       <h1 class="content-heading">Contact us</h1>
       <hr class="content-heading"/>
     </div>
@@ -256,8 +367,8 @@
       <div class="span4">
         <h2>Phone</h2>
         <p>
-          Lisa: <a href="tel:0402 924 160">0402 924 160</a><br>
-          Kelly: <a href="tel:0468 939 019">0468 939 019</a>        
+          Kelly: <a href="tel:0468 939 019">0468 939 019</a><br>
+          Lisa: <a href="tel:0402 924 160">0402 924 160</a>                  
         </p>
       </div>
       <div class="span4">
@@ -385,7 +496,8 @@
         <h3>7. License and Ownership</h3>
         <p>
         The copyright for the content on this website is owned or licensed by Sydney Calisthenics Club and is protected under the Copyright Act 1968 (Cth) and by other copyright laws in both Australia and other countries. No material on this website may be reproduced, adapted, uploaded to a third party, linked to, framed, performed in public, distributed or transmitted in any form by any process without the specific written consent of Sydney Calisthenics Club.
-        <br><br>
+        </p>
+        <p>
         All custom graphics, icons, and other items that appear on the website and all associated trademarks, are trademarks of Sydney Calisthenics Club.
         </p>
         <h3>8. Sydney Calisthenics Club Privacy Policy</h3>
@@ -419,27 +531,38 @@
         <h3>14.General Conditions of Sale</h3>
         <p>
         The following Conditions of Sale shall apply to any product sold on this website. These Conditions of Sale constitute a complete and exclusive statement of the agreement and understanding between you and Sydney Calisthenics Club with respect to the subject matter hereof.
-        <br><br>
+        </p>
+        <p>
         a. The goods delivered under this Agreement shall be of normal industrial quality unless herein specifically stated to the contrary. Any description of such goods has been given by way of identification only and the giving or use of such description shall not constitute any sale hereunder a sale by description.
-        <br><br>
+        </p>
+        <p>
         b. The products available on the website for sale under these Conditions of Sale are only available for sale to individuals who can make legally binding contracts. The products are not available to persons under the age of 18 years nor any other person legally prohibited from entering into a binding contract. By placing your order you are verifying to the Sydney Calisthenics Club that you are able to make a legally binding contract.
-        <br><br>
+        </p>
+        <p>
         c. Your order is an offer by you to purchase a particular product for the price (including the delivery and other charges and taxes) specified on the website at the time of offer and shall be understood to be placed under these Conditions of Sale.
-        <br><br>
+        </p>
+        <p>
         d. These Conditions of Sale may change from time to time and you are required within reason to revisit these before placing your order to ensure that these Conditions of Sale have not changed.
-        <br><br>
+        </p>
+        <p>
         e. Sydney Calisthenics Club reserves the right to accept or reject your offer for any reason, including, without limitation, an error in the product description or the price posted on the website, the availability of the product, or an error in your order. Your contract with Sydney Calisthenics Club only comes into existence when Sydney Calisthenics Club forwards you an email containing confirmation of receipt of your order, an acceptance of your order, confirmation of receipt of your payment and details of likely delivery.
-        <br><br>
+        </p>
+        <p>
         f. This contract shall be governed by and construed in accordance with the law in effect in the State of [insert Australian State here] and by entering into contract both parties are accepting the jurisdiction of the courts of the State of [insert Australian State here] in relation to any dispute between them.
-        <br><br>
+        </p>
+        <p>
         g. You shall inspect the goods immediately upon their arrival and shall within seven (7) days give notice to Sydney Calisthenics Club if the goods are not in accordance with specified requirements. If you fail to give such notice, the goods shall be deemed to be in all respects in accordance with the specified requirements. No claim shall be recognised unless made in writing and received by Sydney Calisthenics Club within seven (7) days after receipt of goods by you. The total amount of any claim shall not exceed the actual invoice value of the goods claimed to be faulty.
-        <br><br>
+        </p>
+        <p>
         h. Ownership and property in the goods supplied/delivered shall pass from Sydney Calisthenics Club to you when Sydney Calisthenics Club accepts your offer and assigns product in the Sydney Calisthenics Club warehouse. Risk passes to you upon delivery to your warehouse or to an agreed delivery point.
-        <br><br>
+        </p>
+        <p>
         i. Sydney Calisthenics Club shall not be responsible for non-delivery or delay in delivery of any goods caused by force majeure and you and Sydney Calisthenics Club shall be excused from performance of their respective obligations when and to the extent such performance is delayed or prevented by force majeure. If your need for the goods is reduced or suspended as a result of force majeure, and notification is within reasonable time of acceptance of the Order and prior to transfer of ownership, you shall be entitled to terminate the agreement. For the purpose of this commitment force majeure shall include but is not limited to natural disasters, civil disasters, political event, change of legal / political environment, business disruption, accidents, earthquake, flood, hurricane or typhoon, tornado, tsunami, volcanic eruption, wildfire/bushfire, landslide or avalanche, fire, flood, storm, earthquake, terrorist acts, revolt, war, financial markets disturbances, changes of regime or tax or regulatory authority, energy failure, external telecommunications failure, and/or failure of transport systems.
-        <br><br>
+        </p>
+        <p>
         j. You assume all risks and liabilities for consequences arising from the use of the goods whether singly or in combination with other goods and indemnify Sydney Calisthenics Club in respect of any such use. Sydney Calisthenics Club is not liable for any infringement of patent rights arising out of the use of such goods by you or your instructions, expressed or implied, and it is your responsibility of to ensure that the goods when used by you are not damaged and no liability will be accepted by Sydney Calisthenics Club for the consequences of the use of damaged goods by you.
-        <br><br>
+        </p>
+        <p>
         k. Nothing in these Conditions of Sale is intended to exclude, restrict or modify any statutory obligation of Sydney Calisthenics Club implied by the Goods Act, 1958.
         </p>
       </div>

@@ -2,7 +2,16 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-
+table > caption {
+  font-size: 26px;
+  padding-top:30px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+.coach > blockquote > p {
+  font-size: 18px;
+  font-style: italic;
+}
 .navbar .pull-right > li > .dropdown-menu, 
 .navbar .nav > li > .dropdown-menu.pull-right {
   right:95px;
@@ -10,7 +19,9 @@
 .coach {
   padding: 0 15px;
 }
-
+.coach > ul {
+  padding-left: 10px;
+}
 .coach > ul > li {
   padding-right: 20px;
 }
