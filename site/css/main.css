@@ -16,9 +16,7 @@ table > caption {
 .navbar .nav > li > .dropdown-menu.pull-right {
   right:95px;
 }
-.coach {
-  padding: 0 15px;
-}
+
 .coach > ul {
   padding-left: 10px;
 }
@@ -74,18 +72,13 @@ body {
 }
 
 .content-heading {
-  font-size: 50px;
   font-weight: normal;
-}
-
-h1.content-heading {
-  margin-top: 75px;
   font-family: 'oleo script', cursive;
   font-size: 70px;
 }
 
-h2 {
-  font-size: 26px;
+h1.content-heading {
+  margin-top: 75px;  
 }
 
 hr.content-heading {
@@ -93,6 +86,12 @@ hr.content-heading {
   background-color: #5A5A5A;
   color: #5A5A5A;
 }
+
+
+h2 {
+  font-size: 26px;
+}
+
 
 
 p {
@@ -123,37 +122,14 @@ i {
   margin-bottom: 30px;
 }
 
-
-[class*="span"] {
-  margin-left: 0;
-}
-
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover{
   background-color: #444;
 }
 
-.navbar .nav {
-  margin-bottom:-4px;
-}
-
 .navbar .nav > li > a {
   font-size: 20px;
 }
-
-.wufoo .info {
-  display: none;
-}
-
-.featurette {
-  margin-bottom: 60px;
-}
-
-h2.featurette-heading {
-  font-family: 'oleo script', Helvetica;
-  font-size:60px;
-}
-
 
 
 .navbar .nav > li > a {
@@ -186,6 +162,7 @@ h2.featurette-heading {
 .featurette {
   padding-top: 80px; /* Vertically center images part 1: add padding above and below text. */
   overflow: hidden; /* Vertically center images part 2: clear their floats. */
+  margin-bottom: 60px;
 }
 .featurette-image {
   margin-top: -80px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
@@ -201,11 +178,13 @@ h2.featurette-heading {
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  font-size: 50px;
+  font-family: 'oleo script', Helvetica;
+  font-size: 60px;
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
 }
+
 
 footer {
   margin-top: 60px;
@@ -216,6 +195,10 @@ footer {
 -------------------------------------------------- */
 
 @media (max-width: 979px) {
+
+  p {
+    font-size: 16px;
+  }
 
   .affix,
   .affix-top {
@@ -251,11 +234,20 @@ footer {
     max-width: 40%;
     margin: 0 auto 20px;
   }
+
+  #back-to-top {
+    bottom: 10px;
+    right:10px;
+    font-size: 40px;
+  }
 }
 
 
 @media (max-width: 767px) {
 
+  p {
+    font-size: 14px;
+  }
   .navbar {
     margin-left: -20px;
     margin-right: -20px;
@@ -274,10 +266,26 @@ footer {
   }
 
   .featurette-heading {
-    font-size: 30px;
+    font-size: 40px;
+  }
+
+  .featurette {
+    margin-bottom: 10px;
   }
   .featurette .lead {
     font-size: 18px;
     line-height: 1.5;
+  }
+
+  .content-heading {
+    font-size: 40px;
+  }
+  h1.content-heading {
+    margin-top: 35px;
+    margin-bottom: 0;
+  }
+  hr.content-heading {
+    height:2px;
+    margin: 10px 0;
   }
 }
