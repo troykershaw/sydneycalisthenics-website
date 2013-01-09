@@ -196,10 +196,6 @@ footer {
 
 @media (max-width: 979px) {
 
-  p {
-    font-size: 16px;
-  }
-
   .affix,
   .affix-top {
     position:relative;
@@ -242,9 +238,12 @@ footer {
   }
 }
 
-
 @media (max-width: 767px) {
 
+  p {
+    font-size: 16px;
+  }
+  
   .navbar .brand {
     font-size: 16px;
   }
