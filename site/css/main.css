@@ -245,6 +245,10 @@ footer {
 
 @media (max-width: 767px) {
 
+  .navbar .brand {
+    font-size: 16px;
+  }
+
   p {
     font-size: 14px;
   }
