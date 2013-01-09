@@ -14,7 +14,7 @@ table > caption {
 }
 .navbar .pull-right > li > .dropdown-menu, 
 .navbar .nav > li > .dropdown-menu.pull-right {
-  right:95px;
+  right: 80px;
 }
 
 .coach > ul {
