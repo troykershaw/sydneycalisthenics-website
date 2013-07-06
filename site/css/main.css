@@ -104,6 +104,10 @@ i {
   font-size: 30px;
 }
 
+table {
+  font-size: 17px;
+}
+
 .navbar {
   opacity: 0.97;
 }
